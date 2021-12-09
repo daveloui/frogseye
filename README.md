@@ -2,12 +2,13 @@
 
 This code is for reproducing the random ReLU results from the paper
 
-*Adapting the Function Approximation Architecture
-in Online Reinforcement Learning, John D. Martin and Joseph Modayil (2021)*[[paper link](https://arxiv.org/pdf/2106.09776.pdf)]
+**Adapting the Function Approximation Architecture
+in Online Reinforcement Learning,**<br />
+*John D. Martin and Joseph Modayil (2021)* [[paper link](https://arxiv.org/pdf/2106.09776.pdf)].
 
-Specifically, the repository contains a minimal implementation of a shallow network architecture which is wired with prediction adapted neighborhoods.
-In addition, we include an implementation of the Frog's Eye domain, and we show how its experience is used for online, RL prediciton. 
-More details can be found in the paper. 
+The repository contains a minimal implementation of a shallow network architecture wired with prediction adapted neighborhoods.
+Network output weights are learned with TD-Lambda (Sutton, 1988).
+The repo also includes implementations of the Linear and Random baselines, an implementation of the Frog's Eye domain, and code for generating plots similar to Figure 4. 
 
 ## Getting Started
 ### Dependencies 
