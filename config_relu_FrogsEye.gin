@@ -1,0 +1,23 @@
+# Experiment configuration.
+run_experiments.parallel_experiments=False
+run_experiments.num_trials=30
+run_experiments.num_steps=5000000
+run_experiments.bin_size=100000
+run_experiments.results_dir_name='results/FrogsEye_experiment'
+
+# Environment configuration.
+run_experiments.env='FrogsEye'
+run_experiments.discount=0.99
+run_experiments.num_obs=4000
+run_experiments.num_aux_preds=4000
+
+# Algorithm configuration.
+run_experiments.architecture=('adaptive', 'random', 'linear',)
+run_experiments.lambda_w=(0.8,)
+run_experiments.num_neighbors=(10,)
+run_experiments.num_nonlinear_features=100
+run_experiments.non_linearity=('relu', 'relu', 'relu',)
+run_experiments.aux_step_size=(3e-6,)
+run_experiments.step_size_exp_range=((6, 5), (6, 5), (6, 5),)
+run_experiments.step_size_base_range=((1, 2), (3, 4), (3, 4),)
+run_experiments.preactiv_bias='paper_params'
