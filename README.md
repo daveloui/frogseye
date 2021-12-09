@@ -1,5 +1,9 @@
 # Adapting the Function Approximation Architecture in Online Reinforcement Learning 
 
+<p align="center">
+  <img src="Frog_Eye_img.png" alt="The Frog's Eye data distribution."/>
+</p>
+
 This code is for reproducing the random ReLU results from the paper
 
 **Adapting the Function Approximation Architecture
