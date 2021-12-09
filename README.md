@@ -1,12 +1,18 @@
-# frogseye
-Adapting the Function Approximation Architecture in Online Reinforcement Learning
+# Adapting the Function Approximation Architecture in Online Reinforcement Learning 
 
-### Purpose:
-The goal of this repository was to implement the prediction-adapted network architecture introduced in the paper Adapting the Function Approximation Architecture
-in Online Reinforcement Learning, by Martin and Modayil (2021)<br /> 
-https://arxiv.org/pdf/2106.09776.pdf
+This code is for reproducing the random ReLU results from the paper
 
-### Dependencies:
+*Adapting the Function Approximation Architecture
+in Online Reinforcement Learning, John D. Martin and Joseph Modayil (2021)*[[paper link](https://arxiv.org/pdf/2106.09776.pdf)]
+
+Specifically, the repository contains a minimal implementation of a shallow network architecture which is wired with prediction adapted neighborhoods.
+In addition, we include an implementation of the Frog's Eye domain, and we show how its experience is used for online, RL prediciton. 
+More details can be found in the paper. 
+
+## Getting Started
+### Dependencies 
+Before running the code, be sure to install the following dependencies. 
+
 - python 3.6
 - numpy
 - scipy<br />
@@ -20,18 +26,17 @@ https://arxiv.org/pdf/2106.09776.pdf
 - itertools
 - multiprocessing
 
-## How to run experiments:
-### Step 1: Specify architectures and hyper-parameters<br /> 
-- Specify hyper-parameters in `config_relu_FrogsEye.gin`. 
+### Running an experiment
+This code can be run locally or on Compute Canada.
+The hyper-parameters used in [Martin and Modayil (2021)](https://arxiv.org/pdf/2106.09776.pdf) can be found in `config_relu_FrogsEye.gin`. 
 
-### Step 2: Launch Experiments:
-#### Case I: running experiments locally
+#### Running an experiment locally
 Run `python run_locally.py` on your home computer. 
 You can choose to parallelize across configurations or not,
 as specified by the `run_experiments.parallel_experiments` parameter in `config_relu_FrogsEye.gin`.
 
 
-#### Case II: running experiments on Compute Canada
+#### Running an experiment on Compute Canada
 ##### Generate experiment configurations
 - run `generate_txt.py`. This will generate a txt file. Each line in the txt file is a specific experiment configuration.
 
