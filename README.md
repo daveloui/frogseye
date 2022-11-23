@@ -4,7 +4,7 @@
   <img src="Frog_Eye_img.png" alt="The Frog's Eye data distribution."/>
 </p>
 
-This code is for reproducing the random ReLU results from the paper
+Algorithms, RL environment and experiments were implemented by Fatima Davelouis and John Martin. This code is for reproducing the results from the paper and makes the Frog's Eye environment fully accessible for others to run experiments.
 
 **Adapting the Function Approximation Architecture
 in Online Reinforcement Learning,**<br />
