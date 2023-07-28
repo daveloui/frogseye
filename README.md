@@ -4,7 +4,8 @@
   <img src="Frog_Eye_img.png" alt="The Frog's Eye data distribution."/>
 </p>
 
-Reinforcement Learning algorithms, environment and experiments were implemented by Fatima Davelouis and John Martin. The code in this repository makes the Frog's Eye domain fully accessible for other researchers to run experiments, and reproduces the results from the following paper:
+
+Algorithms, RL environment and experiments were implemented by Fatima Davelouis (https://github.com/daveloui) and John Martin. The code makes the Frog's Eye environment fully accessible for others to run experiments and reproduces the results from the following paper:
 
 **Adapting the Function Approximation Architecture
 in Online Reinforcement Learning,**<br />
