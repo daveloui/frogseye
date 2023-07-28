@@ -4,15 +4,16 @@
   <img src="Frog_Eye_img.png" alt="The Frog's Eye data distribution."/>
 </p>
 
+
 Algorithms, RL environment and experiments were implemented by Fatima Davelouis (https://github.com/daveloui) and John Martin. The code makes the Frog's Eye environment fully accessible for others to run experiments and reproduces the results from the following paper:
 
 **Adapting the Function Approximation Architecture
 in Online Reinforcement Learning,**<br />
 *John D. Martin and Joseph Modayil (2021)* [[paper link](https://arxiv.org/pdf/2106.09776.pdf)].
 
-The repository contains a minimal implementation of a shallow network architecture wired with prediction adapted neighborhoods.
+The repository contains an implementation of a shallow network architecture wired with prediction adapted neighborhoods.
 Network output weights are learned with TD-Lambda (Sutton, 1988).
-The repo also includes implementations of the Linear and Random baselines, an implementation of the Frog's Eye domain, and code for generating plots similar to Figure 4. 
+The repo also includes implementations of the Linear and Random baselines, an implementation of the Frog's Eye environment, and code for generating plots similar to Figure 4 in the paper mentioned above. 
 
 ## Getting Started
 ### Dependencies 
